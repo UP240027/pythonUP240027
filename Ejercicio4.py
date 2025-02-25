@@ -97,12 +97,51 @@ print("La posicion de la primera letra f en la frase es:", company.index('f'))
 
 #22-Use rfind to determine the position of the last occurrence of a in Coding For All People./coficacion para todos.
 company = 'codificacion para todos'
-print("La posicion de la primera letra a en la frase es:", company.index('a'))
+print("La posicion de la ulima letra a en la frase es:", company.rfind('a'))
 
 #23-Use index or find to find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
 texto03=  'No puedes terminar una oración con porque, porque (porque)  es una conjunción'
 print("La posicion de la primera palara (porque) en la frase es:", texto03.index('porque')) #primer porque
 
 #24-Use rfind to find the position of the last occurrence of the word because in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
-texto04 = 'No puedes terminar una oración con porque, porque (porque)  es una conjunción'
-print("La posicion de la ultima palara (porque) en la frase es:", texto04.rfind('porque')) #ultimo porque
+texto03 = 'No puedes terminar una oración con porque, porque (porque)  es una conjunción'
+print("La posicion de la ultima palara (porque) en la frase es:", texto03.rfind('porque')) #ultimo porque
+
+#25-Slice out the phrase 'because because because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+texto03=  'No puedes terminar una oración con porque, porque (porque)  es una conjunción'
+print(texto03.replace('No puedes terminar una oración con porque, porque (porque)  es una conjunción', 'No puedes terminar una oración con es una conjunción')) # 'thirty days of coding'
+
+#26-Find the position of the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'
+texto03 = 'No puedes terminar una oración con porque, porque (porque)  es una conjunción'
+print("La posicion de la primera palara (porque) en la frase es:", texto03.index('porque')) #primer porque
+print("La posicion de la primera palara (porque) en la frase es:", texto03.find('porque')) #primer porque
+
+
+#27-Find the first occurrence of the word 'because' in the following sentence: 'You cannot end a sentence with because because because is a conjunction'#correjir
+texto03 = 'No puedes terminar una oración con porque, porque (porque)  es una conjunción'
+print("La posicion de la primera palara (porque) en la frase es:", texto03.index('porque')) #primer porque
+print("La posicion de la primera palara (porque) en la frase es:", texto03.find('porque')) #primer porque
+
+#28-Does ''Coding For All' start with a substring Coding? VERDAD O FALSO si inicio con la palabra codificacion
+company = 'codificacion para todos'
+print("La frase empieza con la palabra 'codificacion' ?:", company.startswith('codificacion'))
+
+#29-Does 'Coding For All' end with a substring coding? VERDAD O FALSO si termina con la palabra codificacion
+company = 'codificacion para todos'
+print("La frase termina con la palabra 'codificacion' ?:", company.endswith('codificacion'))
+
+#30-'   Coding For All      '  , remove the left and right trailing spaces in the given string.
+company = 'codificacion para todos'
+print("La frase sin espacios es:", company.strip())
+
+#31-Which one of the following variables return True when we use the method isidentifier(): 30DaysOfPython, thirty_days_of_python, 'thirty_days_of_python', '30_days_of_python'
+print('30DaysOfPython'.isidentifier())
+print('thirty_days_of_python'.isidentifier())
+print('thirty_days_of_python'.isidentifier())
+print('30_days_of_python'.isidentifier())
+
+#32-The following list contains the names of some of python libraries: ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']. Join the list with a hash with space string.
+text04 = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
+print("La lista de unas librerias de python es:", ' , '.join(text04))
+
+#33-Use the new line escape sequence to separate the following sentences. 'I am enjoying this challenge. I just wonder what is next.'
