@@ -53,14 +53,14 @@ print('El valor de la pendiente es: (' + str(xc) +' , '+ str(yc)+')')
 
 ## 9-Encontrar la pendiente y y la distancia euclidiana entre el punto (2, 2) y el punto (6, 10).
 x1 = 2
-y1 =2
-x2 = 6
-y2 = 10
-m = (y2-y1)/(x2-x1)
-print ('La pendiente es: ', m)
-d = ((x2 - x1)*2 + (y2 - y1)*2)
-res = d**0.5
-print ('La distancia euclidiana es de: ', res)
+ y1 =2
+ x2 = 6
+ y2 = 10
+ m = (y2-y1)/(x2-x1)
+ print ('La pendiente es: ', m)
+ d = ((x2 - x1)*2 + (y2 - y1)*2)
+ res = d**0.5
+ print ('La distancia euclidiana es de: ', res)
 
 #10-comparar pendientes. PENDIENTE
 
@@ -101,4 +101,11 @@ palabras = 'python'
 print('El numero de letras que tiene python es: ', len('python'))
 print (type(float(len(palabras))))
 
-#17-Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?
+# #17-Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?
+# prueba = (7//3== int(2.7))
+# print(prueba) 
+
+
+# #18-Check if type of '10' is equal to type of 10
+# resultado = (type('10') == type(10))
+# print(resultado) 
