@@ -9,4 +9,5 @@ company = 'Codificacion para todos'
 #4-Print the variable company using print().
 print (company)
 #5-Print the length of the company string using len() method and print().
-print(len('company'))
+print("La longitud de company es:",len('company'))
+#Change all the characters to uppercase letters using upper() method.

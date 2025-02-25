@@ -101,11 +101,18 @@ palabras = 'python'
 print('El numero de letras que tiene python es: ', len('python'))
 print (type(float(len(palabras))))
 
-# #17-Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?
+#17-Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?
+
+# #18-Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?
 # prueba = (7//3== int(2.7))
 # print(prueba) 
 
-
-# #18-Check if type of '10' is equal to type of 10
+# #19-Check if type of '10' is equal to type of 10
 # resultado = (type('10') == type(10))
 # print(resultado) 
+
+#20-Check if int('9.8') is equal to 10
+
+#22-Writ a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
+
+#23-Write a Python script that displays the following table
