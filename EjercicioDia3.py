@@ -1,131 +1,104 @@
-#Operaciones artimeticas en Python
+#1-Declare your age as integer variable
+edad =18
+print(type(int(edad)),"El valor mi  edad es de:" ,edad)
 
-print('Addition: ', 1 + 2)
-print('Subtraction: ', 2 - 1)
-print('Multiplication: ', 2 * 3)
-print ('Division: ', 4 / 2)                         # Division in python gives floating number
-print('Division: ', 6 / 2)
-print('Division: ', 7 / 2)
-print('Division without the remainder: ', 7 // 2)   # gives without the floating number or without the remaining
-print('Modulus: ', 3 % 2)                           # Gives the remainder
-print ('Division without the remainder: ', 7 // 3)
-print('Exponential: ', 3 ** 2)                     # it means 3 * 3
+#2-Declare your height as a float variable
+altura =1.60
+print(type(float(altura)),"Mi altura es de:" ,altura)
 
-# Numeros Flotantes
-print('Floating Number,PI', 3.14)
-print('Floating Number, gravity', 9.81)
+ 
+#3-Declare a variable that store a complex number
+numero_complejo = 3+4j
+print(type(complex(numero_complejo)),"El numero complejo es:" ,numero_complejo)
 
-# Numeros Complejos
-print('Complex number: ', 1 + 1j)
-print('Multiplying complex number: ',(1 + 1j) * (1-1j))
+#4-script that prompts the user to enter base and height of the triangle and calculate an area of this triangle (area = 0.5 x b x h).
+base = float(input("Ingrese la base del triangulo:"))
+altura = float(input("Ingrese la altura del triangulo:"))
+area_del_triangulo = base * altura / 2
+print ("El area del triangulo es:", area_del_triangulo)
 
-# Declaring the variable at the top first
-a = 3 
-b = 2 
+#5-Perimetro de un triangulo
+#Write a script that prompts the user to enter side a, side b, and side c of the triangle. Calculate the perimeter of the triangle (perimeter = a + b + c).
+lado_a = float(input('Ingrese el lado a : '))
+lado_b = float(input('Ingrese el lado b : '))
+lado_c = float(input('Ingrese el lado c : '))
+perimetro_del_triangulo = lado_a + lado_b + lado_c
+print ("El perimetro del triangulo es:", perimetro_del_triangulo)
 
-# Asignar un resultado a una variable mediante operaciones aritmeticas
+#6-Get length and width of a rectangle using prompt. Calculate its area (area = length x width) and perimeter (perimeter = 2 x (length + width))
+largo = float(input('Ingresa el largo del rectangulo: '))
+ancho = float(input('Ingresa el ancho del rectangulo: '))
+area_del_rectangulo = largo * ancho
+perimetro_del_rectangulo = 2 * (largo + ancho)
+print ("El area del rectangulo es:", area_del_rectangulo)
+print ("El perimetro del rectangulo es:", perimetro_del_rectangulo)
 
-#suma
-total = a + b
-#resta
-diff = a - b 
-#multiplicacion
-product = a * b 
-#division
-division = a / b
-#numero restante de un problema de division
-remainder = a % b
+#7-Get radius of a circle using prompt. Calculate the area (area = pi x r x r) and circumference (c = 2 x pi x r) where pi = 3.14.
+radio = float(input('Ingresa el radio del circulo: '))
+pi = 3.14
+area_del_circulo = pi * radio ** 2
+circunferencia_del_circulo = 2 * pi * radio
+print ("El area del circulo es:", area_del_circulo)
+print ("La circunferencia del circulo es:", circunferencia_del_circulo)
 
-floor_division = a // b
-#exponencial al cuadrado
-exponential = a ** b
+##8-Pendiente de interseccion con el eje x and y
+##Para calcular los ejes de interseccion se debe despejar en la ecuacion la x, y 
+x = 0
+yc=2*x-2
+print("El valor de y es: ", yc)
+y = 0
+xc = (y + 2)/2
+print("El valor de x es: ", xc)
+print('El valor de la pendiente es: (' + str(xc) +' , '+ str(yc)+')')
 
+## 9-Encontrar la pendiente y y la distancia euclidiana entre el punto (2, 2) y el punto (6, 10).
+x1 = 2
+y1 =2
+x2 = 6
+y2 = 10
+m = (y2-y1)/(x2-x1)
+print ('La pendiente es: ', m)
+d = ((x2 - x1)*2 + (y2 - y1)*2)
+res = d**0.5
+print ('La distancia euclidiana es de: ', res)
 
-print(total) 
-print('a + b = ', total)
-print('a - b = ', diff)
-print('a * b = ', product)
-print('a / b = ', division)
-print('a % b = ', remainder)
-print('a // b = ', floor_division)
-print('a ** b = ', exponential)
+#10-comparar pendientes. PENDIENTE
 
-# Declarar valores y organizarlos juntos
-num_one = 3
-num_two = 4
+##11- Calcula el valor de y (y = x^2 + 6x + 9). 
+x = 0
+y = x**2 + 6*x + 9
+print ('El valor de la variabale y es: ', y)
+xuno = 3
+yuno = xuno**2 + 6*xuno + 9
+print ('El valor de la variabale y es: ', yuno)
+xdos = 5
+ydos = xdos**2 + 6*xdos + 9
+print ('El valor de la variabale y es: ', ydos)
 
-# Otra manera de hacer las operaciones aritmeticas a partir de los valores declarados
-total = num_one + num_two
-diff = num_two - num_one
-product = num_one * num_two
-div = num_two / num_two
-remainder = num_two % num_one
+#12-Find the length of 'python' and 'dragon' and make a falsy comparison statement.
+print('El numero de letras que tiene dragon es: ', len('dragon'))
+print('El numero de letras que tiene python es: ', len('python'))  
+print(len('dragon') != len('python'))  # False
 
-# Imprimir los valores con una un indicador de que operacion se realizo 
-print('total: ', total)
-print('difference: ', diff)
-print('product: ', product)
-print('division: ', div)
-print('remainder: ', remainder)
+#13-Use and operator to check if 'on' is found in both 'python' and 'dragon'
+palabra1 = 'python'
+palabra2 = 'drangon'
+if 'on' in palabra1 and 'on' in palabra2:
+    print("'on' se encuentra en ambos 'python' y 'dragon'")
+else:
+    print("'on' no se encuentra en ambos 'python' y 'dragon'")
 
-# Para calcular el area de un circulo se utiliza la formula pi*r^2
-radius = 10                                 # dato= radio de un circulo
-area_of_circle = 3.14 * radius ** 2        
-print('Area of a circle:', area_of_circle) #imprimir el area del circulo calculado
+#14-Use in operator to check if jargon is in the sentence.
+frase1 = 'Espero que este curso no esté lleno de jerga'
+print('jerga in Espero que este curso no esté lleno de jerga', 'jerga' in 'Espero que este curso no esté lleno de jerga')
 
-# Calcular el area de un rectangulo
-length = 10
-width = 20
-area_del_rectangulo = length * width
-print('Area del Rectangulo:', area_del_rectangulo)
+#15-There is no 'on' in both dragon and python
+print('ON in dragon', 'ON' in 'dragon')
+print('ON in python', 'ON' in 'python')
 
-# Calcular el peso de un objeto
-masa = 75
-gravedad = 9.81
-peso = masa * gravedad
-print(peso, 'N')
+#16-Find the length of the text python and convert the value to float and convert it to string
+palabras = 'python'
+print('El numero de letras que tiene python es: ', len('python'))
+print (type(float(len(palabras))))
 
-
-# Comparaciones
-print(3 > 2)     # True, because 3 is greater than 2
-print(3 >= 2)    # True, because 3 is greater than 2
-print(3 < 2)     # False,  because 3 is greater than 2
-print(2 < 3)     # True, because 2 is less than 3
-print(2 <= 3)    # True, because 2 is less than 3
-print(3 == 2)    # False, because 3 is not equal to 2
-print(3 != 2)    # True, because 3 is not equal to 2
-print(len('mango') == len('avocado'))  # False
-print(len('mango') != len('avocado'))  # True
-print(len('mango') < len('avocado'))   # True
-print(len('milk') != len('meat'))      # False
-print(len('milk') == len('meat'))      # True
-print(len('tomato') == len('potato'))  # True
-print(len('python') > len('dragon'))   # False
-
-#Comparaciones  Booleanas
-print('True == True: ', True == True) 
-print('True == False: ', True == False) 
-print('False == False:', False == False) 
-print('True and True: ', True and True) 
-print('True or False:', True or False)
-
-# Otra manera de comparar
-print('1 is 1', 1 is 1)                   # True - because the data values are the same
-print('1 is not 2', 1 is not 2)           # True - because 1 is not 2
-print('A in Asabeneh', 'A' in 'Asabeneh') # True - A found in the string
-print('B in Asabeneh', 'B' in 'Asabeneh') # False -there is no uppercase B
-print('coding' in 'coding for all') # True - because coding for all has the word coding
-print('a in an:', 'a' in 'an')      # True
-print('4 is 2 ** 2:', 4 is 2 ** 2)   # True
-
-print(3 > 2 and 4 > 3) # True - because both statements are true
-print(3 > 2 and 4 < 3) # False - because the second statement is false
-print(3 < 2 and 4 < 3) # False - because both statements are false
-print(3 > 2 or 4 > 3)  # True - because both statements are true
-print(3 > 2 or 4 < 3)  # True - because one of the statement is true
-print(3 < 2 or 4 < 3)  # False - because both statements are false
-print(not 3 > 2)     # False - because 3 > 2 is true, then not True gives False
-print(not True)      # False - Negation, the not operator turns true to false
-print(not False)     # True
-print(not not True)  # True
-print(not not False) # False
+#17-Even numbers are divisible by 2 and the remainder is zero. How do you check if a number is even or not using python?
