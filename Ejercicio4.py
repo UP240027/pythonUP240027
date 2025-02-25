@@ -41,3 +41,24 @@ last_three = company[12:24]
 print(last_three)
 
 #10-Check if Coding For All string contains a word Coding using the method index, find or other methods.
+company = 'codificacion para todos'
+print(company.find('codificacion'))  
+print(company.find('hola')) # 0 #aparece error
+
+company = 'codificacion para todos'
+sub_string = 'codificacion'
+print(company.index(sub_string))  
+
+#11-Replace the word coding in the string 'Coding For All' to Python.
+company = 'codificacion para todos'
+print(company.replace('codificacion', 'python')) # 'thirty days of coding'
+
+#12-Change Python for Everyone to Python for All using the replace method or other methods.
+texto = 'Python for everyone'
+print(texto.replace('everyone', 'all')) 
+
+#13-Split the string 'Coding For All' using space as the separator (split())
+company = 'codificacion para todos'
+print(company.split())
+
+#14-"Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon" split the string at the comma.
