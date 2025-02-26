@@ -40,3 +40,26 @@ print("La empresa del medio de la lista es", empresa_del_medio)
 ultima_empresa = it_companies[6]
 print("La ultima empresa de la lista es:", ultima_empresa)
 
+#10-Print the list after modifying one of the companies
+it_companies[2] = 'Instagram'
+print("La lista de empresas despues de modificar una de ellas es:", it_companies)
+
+companies = 'Facebok / Google / Microsoft / Apple / IBM / Oracle / Amazon'
+print(companies.replace(' Microsoft', 'Instagram'))
+print("La lista de empresas despues de modificar una de ellas es:", it_companies)
+
+#11-Add an IT company to it_companies
+it_companies.append('Twitter') #AGREGAR ELEMENTO AL FINAL DE LA LISTA 
+print("La lista de empresas despues de agregar una de ellas es:", it_companies)
+
+#12-Insert an IT company in the middle of the companies list
+it_companies.insert(3, 'Linkedin') #AGREGAR ELEMENTO EN EL MEDIO DE LA LISTA
+print("La lista de empresas despues de agregar una de ellas es:", it_companies)
+
+#13-Change one of the it_companies names to uppercase (IBM)
+it_companies = 'Facebook / Google / Instagram / Linkedin / APPLE / IBM / Oracle / Amazon / Twitter'
+print("La lista de empresas en mayusculas es:", it_companies.upper())
+
+#14-Join the it_companies with a string '#; '
+it_companies = 'Facebook / Google / Instagram / Linkedin / APPLE / IBM / Oracle / Amazon / Twitter'
+
