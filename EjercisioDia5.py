@@ -1,15 +1,15 @@
-#1-Declare an empty list
+#1-Declara una lista vacia
 lista_vacia = []
 print(len(lista_vacia)) #comrpueba la lista vacia
 
-#2-Declare a list with more than 5 items/ lista con 5 componentes
+#2Declara una lista con 5 elementos/ lista con 5 componentes
 colores = ['azul', 'verde', 'rosa', 'amarillo', 'rojo','morado']
 print ("Los colores de la lista son:", colores)
 
-#3-Find the length of your list/ cuantos componentes tiene la lista
+#3-Encuentra la longitud de la lisa/ cuantos componentes tiene la lista
 print("La longitud/componentes de la lista de colores es:", len(colores))
 
-#4-Get the first item, the middle item and the last item of the list/ contando desde 0 los elementos de la lista
+#4-Obten el primer elemento, el del medio y el ultimo de lista/ contando desde 0 los elementos de la lista
 primer_color_de_la_litsta = colores[0]
 print("El primer color de la lista es", primer_color_de_la_litsta)
 color_de_en_medio_de_la_lista = colores[2]
@@ -17,12 +17,12 @@ print("El color de en medio de la lista es:", color_de_en_medio_de_la_lista)
 ultimo_color_de_la_lista = colores[5]
 print("El ultimo color de la lista es:", ultimo_color_de_la_lista)
 
-#5-Declare a list called mixed_data_types, put your(name, age, height, marital status, address)
+#5-Declara una lista llamada mixed_data_types, put your(name, age, height, marital status, address)
 mixed_data_types = ['Jessica', 18, 1.60, False, 'Aguascalientes']
 print("Los datos de la lista son:", mixed_data_types)   
 
 
-#6-Declare a list variable named it_companies and assign initial values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.
+#6-Declara una lista llamada  it_companies y agrega estos componentes a ella: values Facebook, Google, Microsoft, Apple, IBM, Oracle and Amazon.
 it_companies = ['Facebook', 'Google', 'Microsoft', 'Apple', 'IBM', 'Oracle', 'Amazon']
 print("Las empresas de la lista son:", it_companies)
 

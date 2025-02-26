@@ -60,7 +60,7 @@ x1 = 2
  print ('La pendiente es: ', m)
  d = ((x2 - x1)*2 + (y2 - y1)*2)
  res = d**0.5
- print ('La distancia euclidiana es de: ', res)
+ print ('La distancia euclidiana es de:', res)
 
 #10-comparar pendientes. PENDIENTE
 
