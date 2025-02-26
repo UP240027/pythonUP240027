@@ -15,7 +15,7 @@ print (company)
 #5-Print the length of the company string using len() method and print().
 print("La longitud de company es:",len(company))
 
-#6-ange all the characters to uppercase letters using upper() method.
+#6-change all the characters to uppercase letters using upper() method.
 company = 'codificacion para todos'
 print(company.upper()) 
 
@@ -145,3 +145,34 @@ text04 = ['Django', 'Flask', 'Bottle', 'Pyramid', 'Falcon']
 print("La lista de unas librerias de python es:", ' , '.join(text04))
 
 #33-Use the new line escape sequence to separate the following sentences. 'I am enjoying this challenge. I just wonder what is next.'
+'I am enjoying this challenge. I just wonder what is next.'
+print("I am enjoying this challenge. \n I just wonder what is next.")
+
+#34-Use a tab escape sequence to write the following lines
+#Name      Age     Country   City
+#Asabeneh  250     Finland   Helsinki
+print("Name \t Age \t Country \t City \n Asabeneh \t 250 \t Finland \t Helsinki")
+
+#35-Use the string formatting method to display the following:
+#radius = 10
+#area = 3.14 * radius ** 2
+#The area of a circle with radius 10 is 314 meters square.
+radius = 10
+area = 3.14 * radius ** 2
+print(f"El area del circulo con el radio es: {radius} y  {area} metros cuadrados.")
+
+#36-Make the following using string formatting methods:
+#8 + 6 = 14
+#8 - 6 = 2
+#8 * 6 = 48
+#8 / 6 = 1.33
+#8 % 6 = 2
+#8 // 6 = 1
+#8 ** 6 = 262144
+print(f"8 + 6 = {8 + 6}")
+print(f"8 - 6 = {8 - 6}")
+print(f"8*6 = {8*6}")
+print(f"8/6 = {8/6}")
+print(f"8%6 = {2}")
+print(f"8//6 = {1}")
+print(f"8**6 = {262144}")
