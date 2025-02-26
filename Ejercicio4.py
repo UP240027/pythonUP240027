@@ -131,7 +131,7 @@ company = 'codificacion para todos'
 print("La frase termina con la palabra 'codificacion' ?:", company.endswith('codificacion'))
 
 #30-'   Coding For All      '  , remove the left and right trailing spaces in the given string.
-company = 'codificacion para todos'
+company = 'codificacionparatodos'
 print("La frase sin espacios es:", company.strip())
 
 #31-Which one of the following variables return True when we use the method isidentifier(): 30DaysOfPython, thirty_days_of_python, 'thirty_days_of_python', '30_days_of_python'
