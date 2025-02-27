@@ -60,6 +60,67 @@ print("La lista de empresas despues de agregar una de ellas es:", it_companies)
 it_companies = 'Facebook / Google / Instagram / Linkedin / APPLE / IBM / Oracle / Amazon / Twitter'
 print("La lista de empresas en mayusculas es:", it_companies.upper())
 
-#14-Join the it_companies with a string '#; '
+#14-Join the it_companies with a string '#; '#PENDIENTE
 it_companies = 'Facebook / Google / Instagram / Linkedin / APPLE / IBM / Oracle / Amazon / Twitter'
+
+#15-Check if a certain company exists in the it_companies list.
+it_companies = ['Facebook', 'Google', 'Instagram', 'Linkeding', 'Apple', 'IBM', 'Oracle', 'Amazon', 'Twitter']
+does_exist = 'Facebook' in it_companies
+print("La palabra (Facebook) existe en la lista?", does_exist) 
+does_exist = 'X' in it_companies
+print("La palabra (x) existe en la lista?", does_exist)
+
+#16-Sort the list using sort() method
+it_companies = ['Facebook', 'Google', 'Instagram', 'Linkeding', 'Apple', 'IBM', 'Oracle', 'Amazon', 'Twitter']
+it_companies.sort()
+print("La lista ordenada es:", it_companies)
+
+#17-Reverse the list in descending order using reverse() method
+it_companies = ['Facebook', 'Google', 'Instagram', 'Linkeding', 'Apple', 'IBM', 'Oracle', 'Amazon', 'Twitter']
+it_companies.sort(reverse=True)
+print("La lista con orden en reversa es:", it_companies)
+
+#18-Slice out the first 3 companies from the list
+it_companies = ['Facebook', 'Google', 'Instagram', 'Linkeding', 'Apple', 'IBM', 'Oracle', 'Amazon', 'Twitter']
+cortar_primeras_tres_empresas = it_companies[3:9]
+print("La lista sin las tres primeras empresas queda asi:", cortar_primeras_tres_empresas)
+
+#19-Slice out the last 3 companies from the list
+it_companies = ['Facebook', 'Google', 'Instagram', 'Linkeding', 'Apple', 'IBM', 'Oracle', 'Amazon', 'Twitter']
+cortar_ultimas_tres_empresas = it_companies[:6]
+print("La lista sin las tres ultimas empresas queda asi:", cortar_ultimas_tres_empresas)
+
+#20-Slice out the middle IT company or companies from the list
+it_companies = ['Facebook', 'Google', 'Instagram', 'Linkeding', 'Apple', 'IBM', 'Oracle', 'Amazon', 'Twitter']
+cortar_empresa_del_medio = it_companies[4:5]
+print("La lista sin la empresa del medio queda asi:", cortar_empresa_del_medio)
+
+#21-Remove the first IT company from the list
+it_companies = ['Facebook', 'Google', 'Instagram', 'Linkeding', 'Apple', 'IBM', 'Oracle', 'Amazon', 'Twitter']
+it_companies.remove('Facebook') #remover elemento directo
+print("La lista sin la primera empresa queda asi:", it_companies)
+
+#22-Remove the middle IT company or companies from the list
+it_companies = ['Facebook', 'Google', 'Instagram', 'Linkeding', 'Apple', 'IBM', 'Oracle', 'Amazon', 'Twitter']
+it_companies.remove('Apple') #remover elemento directo
+print("La lista sin la empresa del medio queda asi:", it_companies)
+
+#23-Remove the last IT company from the list
+it_companies = ['Facebook', 'Google', 'Instagram', 'Linkeding', 'Apple', 'IBM', 'Oracle', 'Amazon', 'Twitter']
+it_companies.remove('Twitter') #remover elemento directo
+print("La lista sin la ultima empresa queda asi:", it_companies)
+
+#24-Remove all IT companies from the list
+it_companies = ['Facebook', 'Google', 'Instagram', 'Linkeding', 'Apple', 'IBM', 'Oracle', 'Amazon', 'Twitter']
+it_companies.clear() #remover todos los elementos de la lista
+print("La lista sin las empresas queda asi:", it_companies)
+
+#25-Delate the IT companies list
+it_companies = ['Facebook', 'Google', 'Instagram', 'Linkeding', 'Apple', 'IBM', 'Oracle', 'Amazon', 'Twitter']
+del it_companies #borrar la lista
+
+#26-Join the following lists:
+front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
+back_end = ['Node','Express', 'MongoDB']
+
 
