@@ -134,7 +134,7 @@ print("La lista con Python y SQL incluidos es:", nueva_lista)
 
 #Exercises: Level 2
 #28-The following is a list of 10 students ages:
-ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24] #lista desordenada
 #Sort the list and find the min and max age
 ages.sort()
 print("La lista ordenada es:", ages)
