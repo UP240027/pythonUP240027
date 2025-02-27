@@ -122,5 +122,27 @@ del it_companies #borrar la lista
 #26-Join the following lists:
 front_end = ['HTML', 'CSS', 'JS', 'React', 'Redux']
 back_end = ['Node','Express', 'MongoDB']
+Unir_listas = front_end + back_end
+print("Las listas unidas es:", Unir_listas)
+
+#27-After joining the lists in question 26. Copy the joined list and assign it to a variable full_stack. Then insert Python and SQL after Redux.
+Unir_listas = ['HTML', 'CSS', 'JS', 'React', 'Redux', 'Node', 'Express', 'MongoDB']
+nueva_lista = Unir_listas.copy()
+nueva_lista.insert(5, 'Python') #insertar elemento en la quinta posicion
+nueva_lista.insert(6, 'SQL') #insertar elemento en ls sexta posicion
+print("La lista con Python y SQL incluidos es:", nueva_lista)
+
+#Exercises: Level 2
+#28-The following is a list of 10 students ages:
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+#Sort the list and find the min and max age
+ages.sort()
+print("La lista ordenada es:", ages)
+print("La edad minima de la lista  es:", min(ages))
+print("La edad maxima de la lista  es:", max(ages))
+#Add the min age and the max age again to the list
+
+
+
 
 
