@@ -151,6 +151,9 @@ print("La lista con la minima  maxima edad incluidos de nuevo es:", nueva_lista2
 
 #Find the median age (one middle item or two middle items divided by two)
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+ages.sort()
+
+
 
 
 
