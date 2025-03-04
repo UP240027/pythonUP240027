@@ -133,14 +133,28 @@ nueva_lista.insert(6, 'SQL') #insertar elemento en ls sexta posicion
 print("La lista con Python y SQL incluidos es:", nueva_lista)
 
 #Exercises: Level 2
-#28-The following is a list of 10 students ages:
+#The following is a list of 10 students ages:
 ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24] #lista desordenada
-#Sort the list and find the min and max age
+
+#Sort the list and find the min and max age 
 ages.sort()
 print("La lista ordenada es:", ages)
 print("La edad minima de la lista  es:", min(ages))
 print("La edad maxima de la lista  es:", max(ages))
+
 #Add the min age and the max age again to the list
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+nueva_lista2 = ages.copy()
+nueva_lista2.insert(11, '19') #insertar elemento en la quinta posicion
+nueva_lista2 .insert(12, '26') #insertar elemento en ls sexta posicion
+print("La lista con la minima  maxima edad incluidos de nuevo es:", nueva_lista2)
+
+#Find the median age (one middle item or two middle items divided by two)
+ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
+
+
+
+
 
 
 
