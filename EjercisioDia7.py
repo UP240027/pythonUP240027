@@ -73,19 +73,15 @@ del B
 #Exercises: Level 3
 #Convert the ages to a set and compare the length of the list and the set, which one is bigger?
 #longitud de las listas
-A = {19, 22, 24, 20, 25, 26}
-B = {19, 22, 20, 25, 26, 24, 28, 27}
-age = {22, 19, 24, 25, 26, 24, 25, 24}
+age = [22, 19, 24, 25, 26, 24, 25, 24]
+setAge = set(age)
 print("Los componentes de la lista Age son:",len(age))
-print("Los componentes de la lista A son:",len(A))
-print("Los componentes de la lista B son:", len(B))
+print("Los componentes de la lista SetAge son:",len(setAge))
 #comparar cual lista es la mayor
-if (len(A) > len(B) and len(A) > len(age)):
-    print("La lista mayor es A ")
-if (len(B) > len(A) and len(B) > len(age)):
-    print("La lista mayor es B")
-if (len(age) > len(A) and len(age) > len(B)):
-    print("La lista mayor es Age")
+if (len(age) > len(setAge)):
+    print ("La lista mayor es: ", age)
+if (len(age) < len(setAge)):
+    print ("La lista mayor es: ", setAge)
 
 #Explain the difference between the following data types: string, list, tuple and set
 string = "Hola :)"
@@ -96,6 +92,7 @@ tuple = ("Platano","Sandia","Uva")
 print(tuple)
 set = {'item1', 'item2', 'item3', 'item4'}
 print(set)
+
 #I am a teacher and I love to inspire and teach people. How many unique words have been used in the sentence? Use the split methods and set to get the unique words.
 oracion = "I am a teacher and I love to inspire and teach people"
 conteo_palabras_unicas = oracion.split()
