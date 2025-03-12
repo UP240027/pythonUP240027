@@ -177,3 +177,7 @@ print(f"8/6 = {8/6}")
 print(f"8%6 = {2}")
 print(f"8//6 = {1}")
 print(f"8**6 = {262144}")
+
+
+#REVISADO
+print("Revisado")
