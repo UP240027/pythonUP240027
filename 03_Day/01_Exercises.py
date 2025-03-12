@@ -1,4 +1,3 @@
-#EJERCISIOS DIA 3
 #01-Declare your age as integer variable
 edad =18
 print(type(int(edad)),"El valor mi  edad es de:" ,edad)
