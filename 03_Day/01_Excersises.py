@@ -1,23 +1,23 @@
-#1-Declare your age as integer variable
+#01-Declare your age as integer variable
 edad =18
 print(type(int(edad)),"El valor mi  edad es de:" ,edad)
 
-#2-Declare your height as a float variable
+#02-Declare your height as a float variable
 altura =1.60
 print(type(float(altura)),"Mi altura es de:" ,altura)
 
  
-#3-Declare a variable that store a complex number
+#03-Declare a variable that store a complex number
 numero_complejo = 3+4j
 print(type(complex(numero_complejo)),"El numero complejo es:" ,numero_complejo)
 
-#4-script that prompts the user to enter base and height of the triangle and calculate an area of this triangle (area = 0.5 x b x h).
+#04-script that prompts the user to enter base and height of the triangle and calculate an area of this triangle (area = 0.5 x b x h).
 base = float(input("Ingrese la base del triangulo:"))
 altura = float(input("Ingrese la altura del triangulo:"))
 area_del_triangulo = base * altura / 2
 print ("El area del triangulo es:", area_del_triangulo)
 
-#5-Perimetro de un triangulo
+#05-Perimetro de un triangulo
 #Write a script that prompts the user to enter side a, side b, and side c of the triangle. Calculate the perimeter of the triangle (perimeter = a + b + c).
 lado_a = float(input('Ingrese el lado a : '))
 lado_b = float(input('Ingrese el lado b : '))
@@ -25,7 +25,7 @@ lado_c = float(input('Ingrese el lado c : '))
 perimetro_del_triangulo = lado_a + lado_b + lado_c
 print ("El perimetro del triangulo es:", perimetro_del_triangulo)
 
-#6-Get length and width of a rectangle using prompt. Calculate its area (area = length x width) and perimeter (perimeter = 2 x (length + width))
+#06-Get length and width of a rectangle using prompt. Calculate its area (area = length x width) and perimeter (perimeter = 2 x (length + width))
 largo = float(input('Ingresa el largo del rectangulo: '))
 ancho = float(input('Ingresa el ancho del rectangulo: '))
 area_del_rectangulo = largo * ancho
@@ -33,7 +33,7 @@ perimetro_del_rectangulo = 2 * (largo + ancho)
 print ("El area del rectangulo es:", area_del_rectangulo)
 print ("El perimetro del rectangulo es:", perimetro_del_rectangulo)
 
-#7-Get radius of a circle using prompt. Calculate the area (area = pi x r x r) and circumference (c = 2 x pi x r) where pi = 3.14.
+#07-Get radius of a circle using prompt. Calculate the area (area = pi x r x r) and circumference (c = 2 x pi x r) where pi = 3.14.
 radio = float(input('Ingresa el radio del circulo: '))
 pi = 3.14
 area_del_circulo = pi * radio ** 2
@@ -41,7 +41,7 @@ circunferencia_del_circulo = 2 * pi * radio
 print ("El area del circulo es:", area_del_circulo)
 print ("La circunferencia del circulo es:", circunferencia_del_circulo)
 
-##8-Pendiente de interseccion con el eje x and y
+#08-Pendiente de interseccion con el eje x and y
 ##Para calcular los ejes de interseccion se debe despejar en la ecuacion la x, y 
 x = 0
 yc=2*x-2
@@ -51,7 +51,7 @@ xc = (y + 2)/2
 print("El valor de x es: ", xc)
 print('El valor de la pendiente es: (' + str(xc) +' , '+ str(yc)+')')
 
-## Encontrar la pendiente y y la distancia euclidiana entre el punto (2, 2) y el punto (6, 10).
+#09- Encontrar la pendiente y y la distancia euclidiana entre el punto (2, 2) y el punto (6, 10).
 x1 = 2
 y1 =2
 x2 = 6
@@ -140,6 +140,9 @@ valor = '9.8'
 print(type(float(valor)))
 print('El valor del numero es: ', valor)
 print('El valor de 9.8 es igual a 10: ', not True)
+
+#Writ a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
+
 
 
 #22-Writ a script that prompts the user to enter hours and rate per hour. Calculate pay of the person?
