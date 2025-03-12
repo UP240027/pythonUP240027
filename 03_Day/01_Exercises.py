@@ -154,3 +154,6 @@ print('El salario de la persona es de: ', salario)
 años = float(input('Ingrese la cantidad de años: '))
 segundos = años * 365 * 24 * 60 * 60
 print('La cantidad de segundos que puede vivir una persona es de: ',segundos)
+
+#REVISADO
+print("Revisado")
