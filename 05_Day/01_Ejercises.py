@@ -133,3 +133,6 @@ nueva_lista.insert(5, 'Python') #insertar elemento en la quinta posicion
 nueva_lista.insert(6, 'SQL') #insertar elemento en ls sexta posicion
 print("La lista con Python y SQL incluidos es:", nueva_lista)
 
+
+#REVISADO
+print("Revisado")
