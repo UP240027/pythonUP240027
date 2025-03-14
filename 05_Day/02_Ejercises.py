@@ -62,7 +62,7 @@ countries2 = ['China', 'Russia', 'USA', 'Finland', 'Sweden', 'Norway', 'Denmark'
 ultimos_tres_paises = countries2[3:7]
 print ('Los ultimos tres paises son:', ultimos_tres_paises)
 
-
+##No tienes el archivo de los paises
 
 
 
