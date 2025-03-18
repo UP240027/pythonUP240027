@@ -44,3 +44,6 @@ nordic_countries = ('Denmark', 'Finland','Iceland', 'Norway', 'Sweden')
 print('Estonia' in nordic_countries) # False
 # Check if 'Iceland' is a nordic country
 print('Iceland' in nordic_countries) # True
+
+#REVISADO
+print("Revisado")
