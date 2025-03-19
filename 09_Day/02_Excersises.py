@@ -13,19 +13,19 @@ if calificacion_del_alumno >= 0 and calificacion_del_alumno <= 49:
     print ("Tu nota es (F)")
 
  #Check if the season is Autumn, Winter, Spring or Summer. If the user input is: September, October or November, the season is Autumn. December, January or February, the season is Winter. March, April or May, the season is Spring June, July or August, the season is Summer
-estacion_del_anio = str(input("Ingresa el mes en el que estas:"))
-
-if estacion_del_anio ==  "marzo" or "abril" or "mayo": 
-    print("La estacion del anio en la que estas es primavera")
-
-if estacion_del_anio ==  "junio" or "julio" or "agosto" :
-    print("La estacion del anio en la que estas es verano")
-    
-if estacion_del_anio ==  "septiembre" or "octubre" or "noviembre":
-    print("La estacion del anio en la que estas es otonio")
-
-if estacion_del_anio == "diciembre" or "enero" or "febrero":
-    print("La estacion del anio en la que estas es invierno")
+mes = str(input('Ingresa el mes en el que estas: '))
+verano = 'Junio, julio, agosto'
+otono = 'septiembre, octubre, noviembre'
+invierno = ' Diciembre, enero, febrero'
+primavera = 'Marzo, abril, mayo'
+if mes in verano:
+    print('La estacion en la que estas es: verano')
+elif mes in otono:
+    print ('La estacion en la que estas es: es otono')
+elif mes in invierno:
+    print ('La estacion en la que estas es: invierno')
+elif mes in primavera:
+    print('La estacion en la que estas es: primavera')
 
  #The following list contains some fruits:
  #If a fruit doesn't exist in the list add the fruit to the list and print the modified list. If the fruit exists print('That fruit already exist in the list')
