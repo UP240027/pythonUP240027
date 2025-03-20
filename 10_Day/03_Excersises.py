@@ -20,4 +20,9 @@ for pais in paises:
 #What are the total number of languages in the data
 import countries_data as cd
 paises = cd.countries
-total = 0
+total_lenguajes = 0
+for pais in paises:
+    total_lenguajes += len(paises[pais]['languages'])
+print("El total de lenguajes es:", total_lenguajes)
+
+#seguirle
