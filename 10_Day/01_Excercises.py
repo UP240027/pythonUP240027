@@ -1,4 +1,5 @@
 #Exercises: Level 1 DIA 10
+#para
 #Iterate 0 to 10 using for loop, do the same using while loop.
 conteo   = 0
 while conteo < 10 :
@@ -6,6 +7,9 @@ while conteo < 10 :
     conteo = conteo + 1
     if conteo == 10:
         break
+
+for loop in range(11):
+    print(loop)
 
 lista = [0, 1, 2, 3, 4, 5, 6, 7,8,9,10]
 for numeros in lista: 

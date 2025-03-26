@@ -25,4 +25,14 @@ for pais in paises:
     total_lenguajes += len(paises[pais]['languages'])
 print("El total de lenguajes es:", total_lenguajes)
 
-#seguirle
+#Find the 10 most populated countries in the world
+import countries_data as cd
+paises = cd.countries
+poblacion = []
+for pais in paises:
+    poblacion.append(paises[pais]['population'])
+poblacion.sort(reverse=True)
+for i in range(10):
+    for pais in paises:
+        if paises[pais]['population'] == poblacion[i]:
+            print("Los 10 paises mas poblados son:", pais)
